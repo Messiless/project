@@ -1,6 +1,8 @@
 package web;
 
 import entity.Contact;
+import service.ContactServlet;
+import service.ContactServletImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -33,6 +35,17 @@ request.setCharacterEncoding("utf-8");
         c.setPhone(phone);
         c.setEmail(email);
         c.setAddress(address);
-
+//把数据保存到数据库
+        ContactServlet conn=new ContactServletImpl();
+try {
+    conn.addContact(c);
+}
+catch (Exception e){
+    request.setAttribute("mes",e.getMessage());
+    //转发，回到添加联系人页面
+    request.getRequestDispatcher("/addCon.jsp").forward(request,response);
+}
+//重定向，返回查看所有联系人页面
+response.sendRedirect(request.getContextPath()+"/ConListServlet");
     }
 }

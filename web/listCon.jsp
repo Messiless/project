@@ -24,7 +24,7 @@
     <c:forEach items="${conList}" var="con" varStatus="varSta">
     <tr>
     	<td><input type="checkbox" name="item" value="${con.id }"/></td>
-    	<td>${varSta.count }</td>
+        <td>${varSta.count }</td>
         <td>${con.name }</td>
         <td>${con.gender }</td>
         <td>${con.phone }</td>
@@ -61,4 +61,3 @@
 </script>
 </body>
 </html>
-
