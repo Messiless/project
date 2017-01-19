@@ -53,9 +53,9 @@
 	
 	//全选
 	function checkAll(obj){
-		var itemList = document.getElementsByName("item");
-		for(var i=0;i<itemList.length;i++){
-			itemList[i].checked = obj.checked; 
+		var item = document.getElementsByName("item");
+		for(var i=0;i<item.length;i++){
+			item[i].checked = obj.checked;
 		}
 	}
 </script>
