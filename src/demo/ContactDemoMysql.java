@@ -47,8 +47,9 @@ public class ContactDemoMysql implements ContactDemo {
             stm.setString(2, con.getSex());
             stm.setString(3, con.getPhone());
             stm.setString(4, con.getEmail());
-            stm.setString(5, con.getAddress()
-            );
+            stm.setString(5, con.getAddress());
+            stm.setString(6,con.getId());
+
             stm.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();

@@ -21,12 +21,15 @@ public class ConUpdateServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        String id=request.getParameter("id");
         String name=request.getParameter("name");
         String sex=request.getParameter("sex");
         String phone=request.getParameter("phone");
         String email=request.getParameter("email");
         String address=request.getParameter("address");
         Contact contact = new Contact();
+        contact.setId(id);
         contact.setName(name);
         contact.setSex(sex);
         contact.setPhone(phone);

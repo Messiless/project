@@ -23,7 +23,7 @@ public class ConDeleteServlet extends HttpServlet {
       String id=request.getParameter("id");
         ContactServlet conn=new ContactServletImpl();
         conn.deleteContact(id);
-        response.sendRedirect(request.getContextPath()+"/ConListSer");
+        response.sendRedirect(request.getContextPath()+"/ConListServlet");
 
     }
 }

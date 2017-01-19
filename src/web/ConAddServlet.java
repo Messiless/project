@@ -21,7 +21,7 @@ doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-request.setCharacterEncoding("utf-8");
+      request.setCharacterEncoding("utf-8");
         //获取传过来的数据信息
         String name=request.getParameter("name");
         String sex = request.getParameter("sex");

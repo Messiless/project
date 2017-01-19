@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8ad336-4bf2-4e05-aca8-65367bb4b5a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/demo/ContactDemoMysql.class" afterPath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/demo/ContactDemoMysql.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/web/ConDeleteServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/web/ConDeleteServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/demo/ContactDemo.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/demo/ContactDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/web/ConUpdateServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/classes/web/ConUpdateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/demo/ContactDemoMysql.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/demo/ContactDemoMysql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/entity/Contact.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/entity/Contact.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/service/ContactServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/service/ContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/service/ContactServletImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/service/ContactServletImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/web/ConBatchDelServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/web/ConBatchDelServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/web/ConDeleteServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/web/ConDeleteServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/web/ConListServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/web/ConListServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/web/ConQueryServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/web/ConQueryServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/class/web/ConUpdateServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/class/web/ConUpdateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/github_code_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/ContactDemo.java" afterPath="$PROJECT_DIR$/src/demo/ContactDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/ContactDemoMysql.java" afterPath="$PROJECT_DIR$/src/demo/ContactDemoMysql.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Contact.java" afterPath="$PROJECT_DIR$/src/entity/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ContactServlet.java" afterPath="$PROJECT_DIR$/src/service/ContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ContactServletImpl.java" afterPath="$PROJECT_DIR$/src/service/ContactServletImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConBatchDelServlet.java" afterPath="$PROJECT_DIR$/src/web/ConBatchDelServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConAddServlet.java" afterPath="$PROJECT_DIR$/src/web/ConAddServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConDeleteServlet.java" afterPath="$PROJECT_DIR$/src/web/ConDeleteServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConListServlet.java" afterPath="$PROJECT_DIR$/src/web/ConListServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConQueryServlet.java" afterPath="$PROJECT_DIR$/src/web/ConQueryServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web/ConUpdateServlet.java" afterPath="$PROJECT_DIR$/src/web/ConUpdateServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addCon.jsp" afterPath="$PROJECT_DIR$/web/addCon.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/listCon.jsp" afterPath="$PROJECT_DIR$/web/listCon.jsp" />
     </list>
     <ignored path="Contact.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConAddServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/ConAddServlet.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="437">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConBatchDelServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/ConBatchDelServlet.java">
+      <file leaf-file-name="ConAddServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/ConAddServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="266">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -81,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConQueryServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConQueryServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/ConQueryServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="418">
+              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -104,8 +89,18 @@
       <file leaf-file-name="ConUpdateServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/ConUpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="22" column="121" selection-start-line="22" selection-start-column="121" selection-end-line="22" selection-end-column="121" />
+            <state relative-caret-position="424">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listCon.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/listCon.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -114,18 +109,8 @@
       <file leaf-file-name="editCon.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/editCon.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listCon.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/listCon.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -134,8 +119,8 @@
       <file leaf-file-name="ConDeleteServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/ConDeleteServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="367">
+              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/JdbcUtil.java">
+      <file leaf-file-name="ConBatchDelServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/ConBatchDelServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+            <state relative-caret-position="190">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -184,21 +169,21 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/try.jsp" />
         <option value="$PROJECT_DIR$/github code.iml" />
         <option value="$PROJECT_DIR$/web/try.jsp" />
-        <option value="$PROJECT_DIR$/web/editCon.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/web/ConAddServlet.java" />
         <option value="$PROJECT_DIR$/web/listCon.jsp" />
         <option value="$PROJECT_DIR$/web/addCon.jsp" />
-        <option value="$PROJECT_DIR$/src/web/ConUpdateServlet.java" />
         <option value="$PROJECT_DIR$/src/entity/Contact.java" />
         <option value="$PROJECT_DIR$/src/demo/ContactDemo.java" />
-        <option value="$PROJECT_DIR$/src/demo/ContactDemoMysql.java" />
         <option value="$PROJECT_DIR$/src/service/ContactServlet.java" />
         <option value="$PROJECT_DIR$/src/service/ContactServletImpl.java" />
         <option value="$PROJECT_DIR$/src/web/ConBatchDelServlet.java" />
-        <option value="$PROJECT_DIR$/src/web/ConDeleteServlet.java" />
         <option value="$PROJECT_DIR$/src/web/ConListServlet.java" />
         <option value="$PROJECT_DIR$/src/web/ConQueryServlet.java" />
+        <option value="$PROJECT_DIR$/src/demo/ContactDemoMysql.java" />
+        <option value="$PROJECT_DIR$/src/web/ConAddServlet.java" />
+        <option value="$PROJECT_DIR$/src/web/ConUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/web/ConDeleteServlet.java" />
+        <option value="$PROJECT_DIR$/web/editCon.jsp" />
       </list>
     </option>
   </component>
@@ -935,16 +920,16 @@
       <workItem from="1484626636129" duration="3348000" />
       <workItem from="1484632337148" duration="9585000" />
       <workItem from="1484726729426" duration="3543000" />
-      <workItem from="1484795549642" duration="26906000" />
+      <workItem from="1484795549642" duration="28325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58330000" />
+    <option name="totallyTimeSpent" value="59749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -955,7 +940,7 @@
       <window_info id="Event Log" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" x="16" y="744" width="1876" height="295" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822758" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822758" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1204,14 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/try.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1224,31 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89">
           <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/ContactDemoMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2676#2685#0" expanded="true" />
-            <marker date="1484830129536" expanded="true" signature="514:578" ph="insert into just4... " />
-            <marker date="1484830129536" expanded="true" signature="1256:1327" ph="UPDATE just4... " />
-            <marker date="1484830129536" expanded="true" signature="2004:2033" ph="DELETE FROM " />
-            <marker date="1484830129536" expanded="true" signature="2525:2542" ph="SELECT*from just4... " />
-            <marker date="1484830129536" expanded="true" signature="3539:3567" ph="SELECT*FROM just4... " />
-            <marker date="1484830129536" expanded="true" signature="4510:4540" ph="select*from just4... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/ContactDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1288,29 +1240,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ConAddServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/demo/ContactDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ConBatchDelServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/demo/ContactDemoMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ConDeleteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="304">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2706#2715#0" expanded="true" />
+            <marker date="1484831609709" expanded="true" signature="514:578" ph="insert into just4... " />
+            <marker date="1484831609709" expanded="true" signature="1256:1327" ph="UPDATE just4... " />
+            <marker date="1484831609709" expanded="true" signature="2034:2063" ph="DELETE FROM " />
+            <marker date="1484831609709" expanded="true" signature="2555:2572" ph="SELECT*from just4... " />
+            <marker date="1484831609709" expanded="true" signature="3569:3597" ph="SELECT*FROM just4... " />
+            <marker date="1484831609709" expanded="true" signature="4540:4570" ph="select*from just4... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ConAddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ConUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,6 +1291,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ConQueryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ConDeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/ConBatchDelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editCon.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/addCon.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1332,34 +1341,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/editCon.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/listCon.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ConUpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="121" selection-start-line="22" selection-start-column="121" selection-end-line="22" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/ConQueryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
