@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<center><h3>查询所有联系人(jsp版本)</h3></center>
+ <h3>查询所有联系人</h3>
 <form action="${pageContext.request.contextPath }/ConBatchDelServlet" method="post">
 <table border="1" align="center" width="800px">
 	<tr>
@@ -46,7 +46,7 @@
 		if(window.confirm("是否继续删除，一旦删除不能恢复！")){
 			//按了“确定”
 			//发出删除请求
-			var url = "${pageContext.request.contextPath}/ConDelServlet?id="+id;
+			var url = "${pageContext.request.contextPath}/ConDeleteServlet?id="+id;
 			window.location.href=url;
 		}	
 	}

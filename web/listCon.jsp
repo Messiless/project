@@ -46,16 +46,16 @@
 		if(window.confirm("是否继续删除，一旦删除不能恢复！")){
 			//按了“确定”
 			//发出删除请求
-			var url = "${pageContext.request.contextPath}/ConDelServlet?id="+id;
+			var url = "${pageContext.request.contextPath}/ConDeleteServlet?id="+id;
 			window.location.href=url;
 		}	
 	}
 	
 	//全选
 	function checkAll(obj){
-		var itemList = document.getElementsByName("item");
-		for(var i=0;i<itemList.length;i++){
-			itemList[i].checked = obj.checked; 
+		var item = document.getElementsByName("item");
+		for(var i=0;i<item.length;i++){
+			item[i].checked = obj.checked;
 		}
 	}
 </script>
