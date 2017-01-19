@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<center><h3>查询所有联系人(jsp版本)</h3></center>
+ <h3>查询所有联系人</h3>
 <form action="${pageContext.request.contextPath }/ConBatchDelServlet" method="post">
 <table border="1" align="center" width="800px">
 	<tr>
