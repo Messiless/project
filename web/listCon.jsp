@@ -12,7 +12,7 @@
 <form action="${pageContext.request.contextPath }/ConBatchDelServlet" method="post">
 <table border="1" align="center" width="800px">
 	<tr>
-		<th><input type="checkbox" id="all" onclick="checkAll(this)"/>全选/反选<input type="submit" value="批量删除"/></th>
+		<th><input type="checkbox" id="all" onclick="checkAll(this)"/>全选/反选<input type="submit" value="选中删除"/></th>
     	<th>编号</th>
         <th>姓名</th>
         <th>性别</th>
