@@ -59,14 +59,14 @@ public class ContactDemoMysql implements ContactDemo {
     }
 
     @Override
-    public void deleteContact(int id) {
+    public void deleteContact(String id) {
         Connection conn = null;
         PreparedStatement stm = null;
         try {
             conn = JdbcUtil.getConnection();
             String sql = "DELETE  FROM just4 where id=?";
             stm = conn.prepareStatement(sql);
-            stm.setInt(1, id);
+            stm.setString(1, id);
             stm.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
@@ -88,7 +88,7 @@ public class ContactDemoMysql implements ContactDemo {
             List<Contact> list = new ArrayList<Contact>();
             while (res.next()) {
                 Contact c = new Contact();
-                c.setId(res.getInt("id"));
+                c.setId(res.getString("id"));
                 c.setName(res.getString("name"));
                 c.setSex(res.getString("sex"));
                 c.setPhone(res.getString("phone"));
@@ -106,7 +106,7 @@ public class ContactDemoMysql implements ContactDemo {
     }
 
     @Override
-    public Contact findById(int id) {
+    public Contact findById(String id) {
         Connection conn = null;
         PreparedStatement stm = null;
         ResultSet res = null;
@@ -115,11 +115,11 @@ public class ContactDemoMysql implements ContactDemo {
             conn = JdbcUtil.getConnection();
             String sql = "SELECT*FROM just4 where id=?";
             stm = conn.prepareStatement(sql);
-            stm.setInt(1, id);
+            stm.setString(1, id);
             res = stm.executeQuery();
             if (res.next()) {
                 c1 = new Contact();
-                c1.setId(res.getInt("id"));
+                c1.setId(res.getString("id"));
                 c1.setName(res.getString("name"));
                 c1.setSex(res.getString("sex"));
                 c1.setPhone(res.getString("phone"));

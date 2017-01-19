@@ -23,7 +23,7 @@ public class ConBatchDelServlet extends HttpServlet {
         String[] items = request.getParameterValues("item");
         ContactServlet conn=new ContactServletImpl();
         for(String it:items){
-            conn.deleteContact(Integer.parseInt(it));
+            conn.deleteContact(it);
         }
         response.sendRedirect(request.getContextPath()+"/ConListServlet");
     }

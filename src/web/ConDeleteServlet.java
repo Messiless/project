@@ -21,10 +21,9 @@ public class ConDeleteServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       String id=request.getParameter("id");
-        int idd=Integer.parseInt(id);
         ContactServlet conn=new ContactServletImpl();
-        conn.deleteContact(idd);
-        response.sendRedirect(request.getContextPath()+"/ConListServlet");
+        conn.deleteContact(id);
+        response.sendRedirect(request.getContextPath()+"/ConListSer");
 
     }
 }

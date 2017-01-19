@@ -3,7 +3,56 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <servlet>
+        <servlet-name>ConListServlet</servlet-name>
+        <servlet-class>web.ConListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConAddServlet</servlet-name>
+        <servlet-class>web.ConAddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConDeleteServlet</servlet-name>
+        <servlet-class>web.ConDeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConQueryServlet</servlet-name>
+        <servlet-class>web.ConQueryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConUpdateServlet</servlet-name>
+        <servlet-class>web.ConUpdateServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConBatchDelServlet</servlet-name>
+        <servlet-class>web.ConBatchDelServlet</servlet-class>
+    </servlet>
 
 
+
+    <servlet-mapping>
+        <servlet-name>ConListServlet</servlet-name>
+        <url-pattern>/ConListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConAddServlet</servlet-name>
+        <url-pattern>/ConAddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConDeleteServlet</servlet-name>
+        <url-pattern>/ConDeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConQueryServlet</servlet-name>
+        <url-pattern>/ConQueryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConUpdateServlet</servlet-name>
+        <url-pattern>/ConUpdateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConBatchDelServlet</servlet-name>
+        <url-pattern>/ConBatchDelServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>

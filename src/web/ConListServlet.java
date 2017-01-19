@@ -23,11 +23,10 @@ public class ConListServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //将数据库的数据读取出来
-        ContactServlet conn=new ContactServletImpl();
         ContactServlet conList=new ContactServletImpl();
         List<Contact> list=conList.findAll();
         //把数据放到域对象中
-        request.setAttribute("conList",conList);
+        request.setAttribute("conList",list);
        //转发
         request.getRequestDispatcher("/listCon.jsp").forward(request,response);
     }

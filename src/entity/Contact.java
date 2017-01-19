@@ -5,18 +5,18 @@ package entity;
  * 联系人对象  编号   姓名   性别   电话   邮箱   地址
  */
 public class Contact {
-    private int id;
+    private String id;
     private  String name;
     private String sex;
     private String phone;
     private  String email;
     private String address;
 
-    public int getId() {
+    public String  getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -34,7 +34,7 @@ public class ConUpdateServlet extends HttpServlet {
         contact.setAddress(address);
         ContactServlet conn=new ContactServletImpl();
         conn.updateContact(contact);
-        request.getRequestDispatcher(request.getContextPath()+"/ConListServlet.jsp").forward(request,response);
+        request.getRequestDispatcher(request.getContextPath()+"/ConListServlet").forward(request,response);
 
     }
 }

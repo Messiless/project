@@ -26,7 +26,7 @@
     	<td><input type="checkbox" name="item" value="${con.id }"/></td>
         <td>${varSta.count }</td>
         <td>${con.name }</td>
-        <td>${con.gender }</td>
+        <td>${con.sex }</td>
         <td>${con.phone }</td>
         <td>${con.email }</td>
         <td>${con.address }</td>
