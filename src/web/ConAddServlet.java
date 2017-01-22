@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * Created by Computer on 2017/1/17.
  */
-@WebServlet(name = "ConAddServlet",urlPatterns = {"/ConAddServlet"})
+@WebServlet(name = "ConAddServlet",urlPatterns = "/ConAddServlet")
 public class ConAddServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 doGet(request,response);
