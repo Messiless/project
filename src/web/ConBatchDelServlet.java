@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * Created by Computer on 2017/1/19.
  */
-@WebServlet(name = "ConBatchDelServlet")
+@WebServlet(name = "ConBatchDelServlet",urlPatterns = "/ConBatchDelServlet")
 public class ConBatchDelServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);

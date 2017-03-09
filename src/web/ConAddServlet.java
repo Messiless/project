@@ -3,6 +3,7 @@ package web;
 import entity.Contact;
 import service.ContactServlet;
 import service.ContactServletImpl;
+import util.BeanUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,7 +15,7 @@ import java.io.IOException;
 /**
  * Created by Computer on 2017/1/17.
  */
-@WebServlet(name = "ConAddServlet",urlPatterns = {"/ConAddServlet"})
+@WebServlet(name = "ConAddServlet",urlPatterns = "/ConAddServlet")
 public class ConAddServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 doGet(request,response);
@@ -23,19 +24,22 @@ doGet(request,response);
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       request.setCharacterEncoding("utf-8");
         //获取传过来的数据信息
-        String name=request.getParameter("name");
+        /*String name=request.getParameter("name");
         String sex = request.getParameter("sex");
         String phone = request.getParameter("phone");
         String email = request.getParameter("email");
         String address = request.getParameter("address");
+        */
         //封装进对象
-        Contact c=new Contact();
+        /*Contact c=new Contact();
         c.setName(name);
         c.setSex(sex);
         c.setPhone(phone);
         c.setEmail(email);
         c.setAddress(address);
+        */
 //把数据保存到数据库
+        Contact c= BeanUtil.getBean(request,Contact.class);
         ContactServlet conn=new ContactServletImpl();
 try {
     conn.addContact(c);
